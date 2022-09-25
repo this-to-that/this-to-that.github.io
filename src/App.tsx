@@ -51,7 +51,10 @@ export default function App() {
 		<div className="min-h-screen grid grid-rows-[auto_1fr_auto]">
 			<div className="w-full text-center py-4 bg-gray-300 mb-52">
 				⭐ this repository on{" "}
-				<a className="underline" href="https://www.google.com">
+				<a
+					className="underline"
+					href="https://github.com/this-to-that/this-to-that.github.io"
+				>
 					GitHub
 				</a>
 			</div>
