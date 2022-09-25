@@ -32,7 +32,7 @@ export default function App() {
 
 	const fromValueHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
 		e.preventDefault();
-		let value: number | null = parseInt(e.target.value);
+		let value: number | null = parseFloat(e.target.value);
 		if (isNaN(value)) {
 			value = null;
 		}
@@ -44,7 +44,6 @@ export default function App() {
 
 	useEffect(() => {
 		const outputValue = convert(from, to, fromValue);
-		console.log(outputValue);
 		setOutputValue(outputValue);
 	}, [from, to, fromValue]);
 
