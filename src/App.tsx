@@ -47,8 +47,6 @@ export default function App() {
 		setOutputValue(outputValue);
 	}, [from, to, fromValue]);
 
-	//test
-
 	return (
 		<div className="min-h-screen grid grid-rows-[auto_1fr_auto]">
 			<div className="w-full text-center py-4 bg-gray-300 mb-52">
